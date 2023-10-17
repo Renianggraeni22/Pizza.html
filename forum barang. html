@@ -1,0 +1,52 @@
+<html>
+<head>
+     <title> Formulir Pemesanan | veloura</title>
+<style type=”text/css”>
+</style>
+</head>
+<body>
+<p4> <strong> FORMULIR PEMESANAN BARANG </p4> </strong> <br>
+<p1> Silakan isi formulir di bawah ini untuk melakukan pemesanan barang </p1>
+
+<form action=”” method=”get”>
+<ul>
+<li>
+<label for=”nama”> Nama Pemesan : </label>
+<input id=”nama” name=”namamu” />
+</li >
+<br>
+<li>
+<label for=”alamat”> Alamat Lengkap :</label>
+<textarea id=”alamat” name=”alamat”></textarea>
+</li> </br>
+<li>
+<label for=”nomorhp”> Nomor Ponsel : </label>
+<input id=”nomorhp” name=”nomorhpmu” />
+</li> <br>
+<li>
+<label for=”e-mail”> Alamat E-mail : </label>
+<input id=”e-mail” name=”e-mail” />
+</li> </br>
+<p3> PESANAN </p3>
+<li>
+<label for=”pesanan”> Pilih Salah Satu Pesanan : </label>
+<input type=”checkbox” /> Kaos </input> <br>
+<input type=”checkbox” /> Kemeja </input> <br>
+<input type=”checkbox” /> hoodie </input> <br>
+</li> <br>
+<li>
+<label for=”ukuran”> Pilih Ukuran : </label >
+<input type=”checkbox” /> S
+<input type=”checkbox” /> M
+<input type=”checkbox” /> L
+<input type=”checkbox” /> XL
+</li> <br>
+<li >
+<label for=”jumlah”> Jumlah : </label>
+<input id=”jumlah” name=”jumlah” />
+<a> <input type="submit">
+</li> 
+</ul>
+</body>
+</head>
+</html>

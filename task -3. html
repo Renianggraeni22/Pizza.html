@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>profil & galerry wishlist</title>
+</head>
+<body>
+    <!--header-->
+    <header style="text-algian:center;">
+        <h1>selamat datang di gallery wishlist</h1>
+    </header>
+    <hr>
+    <!--isi datanya-->
+    <main>
+        <section>
+            <h2>profil saya</h2>
+            <ul>
+                <li>siti anggareni nur padillah</li>
+                <li>Email:sitianggraeninurfadillah22@gmail.com</li>
+                <li>linkedin:https://www.linkedin.com/in/siti-anggraeni-nur-fadillah-779720293</li>
+            </ul>
+
+        </section>
+        <h2>dekripsimy gallery wishlist</h2>
+        <p>
+            ini adalah halaman web gallery yang menampilakan daftar kota idaman saya yang ada di dunia.kota atau daerah ini memiliki keindahan alam,budaya,sejarah dan kenangan yang tidak semua kota memilikinya.
+        </p>
+        <section>
+            <h2>kota favorit</h2>
+            <img src="https://cdn.pixabay.com/photo/2018/10/05/02/04/mosque-3724921_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2020/05/07/18/00/ramadan-5142510_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2018/07/18/20/25/channel-3547224_1280.jpg">
+        </section>
+
+        <section>
+            <h2>informasi kota favorit</h2>
+
+            <table border="1">
+                <tr>
+                    <th>nama kota</th>
+                    <th>letak kota</th>
+                    <th>jumlah penduduk</th>
+                    <th>keunikan</th>
+                </tr>
+                <tr>
+                    <td>madinah</td>
+                    <td>arab saudi</td>
+                    <td>1,3 juta</td>
+                    <td>tempat nabi muhammad dimakamkan</td>
+                </tr>
+                <tr>
+                    <td>mekkah</td>
+                    <td>arab saudi</td>
+                    <td>2,150 juta</td>
+                    <td>kota suci</td>
+                </tr>
+                <tr>
+                    <td>paris</td>
+                    <td>france</td>
+                    <td>2,161 juta</td>
+                    <td>kota cahaya</td>
+                </tr>
+                <tr>
+                    <td>venesia</td>
+                    <td>italia</td>
+                    <td>258,685</td>
+                    <td>geografi,arsitektur dan sejarah</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!--footer-->
+    <footer>
+        <p>
+            2023 siti anggraeni nur padillah
+        </p>
+        <section>
+            <h2>hubungi saya</h2>
+            <form>
+                <label>nama:</label>
+                <input type="nama">
+                <br></br>
+                
+                <label>pesan</label>
+                <input type="text">
+                <br></br>
+                
+                <label>Email</label>
+                <input type="Email">
+                <br></br>
+                
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h2>video</h2>
+            <iframe src="https://youtube.com/embed/htKo-kauy08?"></iframe>
+        </section>
+    </footer>
+</body>
+</html>
